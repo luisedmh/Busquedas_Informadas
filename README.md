@@ -58,7 +58,7 @@ During execution, the CLI prints an interactive step-by-step rendering of the ma
 1 0 * 1 0 0 0 0 0 1\
 1 0 * 1 0 0 1 0 0 1\
 3 * * 1 1 1 1 0 0 1\
-1 0 0 0 0 0 0 0 0 4\
+1 0 0 0 0 0 0 0 0 4
 
 *(Note: Comprehensive benchmark data evaluating search behavior across different map dimensions (M1, M2, M3) can be found compiled inside the `/docs` directory).*
 
