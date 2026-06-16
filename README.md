@@ -49,34 +49,16 @@ h(n) = (|x_E - x_n| + |y_E - y_n|) * W (with W = 3)
 
 ---
 
-## Installation & Setup
-
-1. **Clone the repository:**
-   git clone git@github.com-personal:luisedmh/Busquedas_Informadas.git
-   cd Busquedas_Informadas
-
-2. **Compile the source code:**
-   Ensure you have a C++ compiler installed (like g++). Run the following command to compile:
-   g++ -O3 src/*.cpp -o dynamic_maze_solver
-
-3. **Run the application:**
-   Execute the compiled binary:
-   ./dynamic_maze_solver
-
-4. **Custom Inputs:** Upon execution, the program will prompt you via CLI to manually input your desired (S) and (E) coordinates if you wish to override the default file locations.
-
----
-
 ## Sample Outputs & Visualizations
 
 During execution, the CLI prints an interactive step-by-step rendering of the matrix maze showing the agent's progressive pathing marked with '*'.
 
-1 1 1 1 1 1 1 1 1 1
-1 * * 1 0 0 0 0 0 1
-1 0 * 1 0 0 0 0 0 1
-1 0 * 1 0 0 1 0 0 1
-3 * * 1 1 1 1 0 0 1
-1 0 0 0 0 0 0 0 0 4
+1 1 1 1 1 1 1 1 1 1\
+1 * * 1 0 0 0 0 0 1\
+1 0 * 1 0 0 0 0 0 1\
+1 0 * 1 0 0 1 0 0 1\
+3 * * 1 1 1 1 0 0 1\
+1 0 0 0 0 0 0 0 0 4\
 
 *(Note: Comprehensive benchmark data evaluating search behavior across different map dimensions (M1, M2, M3) can be found compiled inside the `/docs` directory).*
 
